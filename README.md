@@ -12,17 +12,17 @@ Current focus:
 ## Selected Public Work
 
 [wachter-secretary](https://github.com/Wachter-Intelligence/wachter-secretary)  
-Multilingual voice AI secretary using Telnyx, OpenAI Realtime, Cal.com, Resend, Postgres, and Fly.io. Handles inbound calls, triage, appointment booking, and post-call transcript/action-item emails.
+Multilingual voice-agent system for inbound calls, triage, appointment booking, follow-up, persistence, and operational monitoring. The repository includes telephony and voice-model integrations, safety controls, health probes, and deployment tooling.
 
 [carrito](https://github.com/wachtermar/carrito)  
-Go CLI and agent skill for grocery workflows: product search, basket review, guarded checkout preparation, pantry memory, meal planning, nutrition evidence ledgers, recipe JSON, and PDFs.
+Go CLI and portable agent skill for grocery planning and guarded cart preparation. Deterministic checks enforce spend limits, read back risky changes, and keep checkout and payment under explicit human control.
 
 [transcribe](https://github.com/wachtermar/transcribe)  
 Terminal GUI transcription app using Gemini with speaker detection, audio preview, long-audio splitting, SRT/text output, rate-limit awareness, and secure key storage.
 
 ## Stack
 
-TypeScript, JavaScript, Python, Go, Swift, OpenAI Realtime, Telnyx, Cal.com, Gemini, Fly.io.
+TypeScript, React, Node.js, Python, FastAPI, Go, Postgres, Docker, Cloudflare, telephony and model APIs.
 
 ## Work
 
