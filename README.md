@@ -11,14 +11,15 @@ Current focus:
 
 ## Selected Public Work
 
-[wachter-secretary](https://github.com/Wachter-Intelligence/wachter-secretary)  
-Multilingual voice-agent system for inbound calls, triage, appointment booking, follow-up, persistence, and operational monitoring. The repository includes telephony and voice-model integrations, safety controls, health probes, and deployment tooling.
-
 [carrito](https://github.com/wachtermar/carrito)  
 Go CLI and portable agent skill for grocery planning and guarded cart preparation. Deterministic checks enforce spend limits, read back risky changes, and keep checkout and payment under explicit human control.
 
 [transcribe](https://github.com/wachtermar/transcribe)  
 Terminal GUI transcription app using Gemini with speaker detection, audio preview, long-audio splitting, SRT/text output, rate-limit awareness, and secure key storage.
+
+## Private Work Boundary
+
+Selected private work includes voice and receptionist automation with telephony, booking, follow-up, monitoring, and deployment tooling. Repositories, operating details, and client information stay private.
 
 ## Stack
 
