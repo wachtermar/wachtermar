@@ -1,13 +1,13 @@
 # Marcel Wachter
 
-I build practical AI agents and workflow automation for real operations.
+I build reliable AI agents and workflow automation for real operations.
 
 Current focus:
 
-- voice and receptionist agents for appointment-heavy workflows
-- internal tools for operational teams
-- workflow audits and process automation
-- agent skills with clear boundaries and evidence trails
+- guarded agent actions with explicit human-control boundaries
+- long-running media and model workflows
+- workflow audits and internal tools for operational teams
+- full-stack integration, testing, and observability
 
 ## Selected Public Work
 
@@ -30,3 +30,5 @@ TypeScript, React, Node.js, Python, FastAPI, Go, Postgres, Docker, Cloudflare, t
 I run [Wachter Intelligence](https://wachter.ai), where I audit workflows, rebuild broken processes, and deploy AI automation that removes repetitive manual work.
 
 Most customer work is private, so I keep client details out of public repos unless explicitly approved. The pattern is consistent: find the manual bottleneck, map the workflow, add guardrails, and ship something people can actually operate.
+
+[Wachter Intelligence](https://wachter.ai) · [LinkedIn](https://www.linkedin.com/in/marcel-wachter/)
