@@ -14,7 +14,7 @@ I turn messy, cross-system workflows into applied-AI products that people can in
 
 <p align="center">
   <a href="https://github.com/wachtermar/carrito">
-    <img src="./assets/carrito-proof.png" alt="Carrito local mock run: guarded cart write, verified read-back at €2.90 under a €10 cap, and generated mobile cooking plan; no checkout" width="100%">
+    <img src="./assets/carrito-product-proof.svg" alt="Carrito product proof: a sanitized cart rehearsal reads back two lines at €2.90 inside a €10 cap and leaves checkout to a person" width="100%">
   </a>
 </p>
 
