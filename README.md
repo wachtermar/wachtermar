@@ -1,34 +1,52 @@
-# Marcel Wachter
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Marcel Wachter — Applied AI systems builder" width="100%">
+</p>
 
-I build reliable AI agents and workflow automation for real operations.
+I turn messy, cross-system workflows into applied-AI products that people can inspect and control. I own the path from workflow analysis through interfaces, integrations, tests, and operational safeguards.
 
-Current focus:
+<p>
+  <a href="https://wachter.ai"><strong>Wachter Intelligence</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://wachter.ai/results">Selected systems</a>
+</p>
 
-- guarded agent actions with explicit human-control boundaries
-- long-running media and model workflows
-- workflow audits and internal tools for operational teams
-- full-stack integration, testing, and observability
+## Selected public systems
 
-## Selected Public Work
+<p align="center">
+  <a href="https://github.com/wachtermar/carrito">
+    <img src="./assets/carrito-proof.png" alt="Carrito local mock run: guarded cart write, verified read-back at €2.90 under a €10 cap, and generated mobile cooking plan; no checkout" width="100%">
+  </a>
+</p>
 
-[carrito](https://github.com/wachtermar/carrito)  
-Go CLI and portable agent skill for grocery planning and guarded cart preparation. Deterministic checks enforce spend limits, read back risky changes, and keep checkout and payment under explicit human control.
+**Guarded agent actions.** A Go CLI and portable agent skill that separates model planning from deterministic spend checks, cart writes, read-back, bounded rollback, and human-controlled checkout. The visual uses a reproducible local mock run with sanitized demo data. [**Source and architecture →**](https://github.com/wachtermar/carrito/blob/main/docs/architecture.md)
 
-[transcribe](https://github.com/wachtermar/transcribe)  
-Terminal GUI transcription app using Gemini with speaker detection, audio preview, long-audio splitting, SRT/text output, rate-limit awareness, and secure key storage.
+<p align="center">
+  <a href="https://github.com/wachtermar/transcribe">
+    <img src="./assets/transcribe-proof.png" alt="Real Transcribe terminal UI showing speaker-aware output and text, timestamp, or SRT export choices with a sanitized demo transcript" width="100%">
+  </a>
+</p>
 
-## Private Work Boundary
+**Long-running model workflows.** A terminal transcription tool with audio preview, long-file splitting, speaker handling, rate-limit preflight, and SRT or text output. The proof card shows the real interface with a sanitized demo transcript, not a claimed model result. [**Source and setup →**](https://github.com/wachtermar/transcribe#quick-start)
 
-Selected private work includes voice and receptionist automation with telephony, booking, follow-up, monitoring, and deployment tooling. Repositories, operating details, and client information stay private.
+## What I build
 
-## Stack
+| System layer | What I own |
+|---|---|
+| **Agent systems** | Tool boundaries, deterministic validation, read-back verification, failure stops, and human approval. |
+| **Operational products** | Workflow discovery, interfaces, backend services, data flow, and third-party integration. |
+| **Long-running AI workflows** | Input preparation, chunking, model calls, split/upload/transcribe progress, recovery, and structured output. |
+| **Delivery and reliability** | Tests, health checks, staged deployment, monitoring, backups, and operating documentation. |
 
-TypeScript, React, Node.js, Python, FastAPI, Go, Postgres, Docker, Cloudflare, telephony and model APIs.
+## Selected private systems
 
-## Work
+<p align="center">
+  <img src="./assets/private-systems-card.svg" alt="Selected private voice and receptionist automation systems" width="100%">
+</p>
 
-I run [Wachter Intelligence](https://wachter.ai), where I audit workflows, rebuild broken processes, and deploy AI automation that removes repetitive manual work.
+Selected private work includes voice and receptionist automation with telephony, booking, follow-up, persistence, monitoring, and deployment safeguards. The repositories, client details, provider topology, and operating data stay private.
 
-Most customer work is private, so I keep client details out of public repos unless explicitly approved. The pattern is consistent: find the manual bottleneck, map the workflow, add guardrails, and ship something people can actually operate.
+## Technical range
 
-[Wachter Intelligence](https://wachter.ai) · [LinkedIn](https://www.linkedin.com/in/marcel-wachter/)
+**TypeScript · React · Node.js · Python · FastAPI · Go · Postgres · Docker · Cloudflare · telephony and model APIs**
+
+I run [Wachter Intelligence](https://wachter.ai), an applied-AI systems studio focused on operational workflows. For technical review, start with [Carrito’s public safety architecture](https://github.com/wachtermar/carrito/blob/main/docs/architecture.md) or the [Transcribe setup](https://github.com/wachtermar/transcribe#quick-start). You can also find me on [LinkedIn](https://www.linkedin.com/in/marcel-wachter/).

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Marcel Wachter — Applied AI systems builder</title>
+  <desc id="desc">A dark technical portfolio banner showing a workflow moving through agent logic, deterministic validation, and human control.</desc>
+  <defs>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#eef6ed" opacity="0.12"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="7" dy="7" stdDeviation="0" flood-color="#000000"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="420" fill="#171e19"/>
+  <rect width="1280" height="420" fill="url(#dots)"/>
+  <rect x="0" y="0" width="1280" height="12" fill="#ffe17c"/>
+  <rect x="0" y="408" width="1280" height="12" fill="#ffe17c"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#eef6ed">
+    <rect x="56" y="48" width="18" height="18" fill="#ffe17c" stroke="#000" stroke-width="3"/>
+    <text x="88" y="63" font-size="18" font-weight="700" letter-spacing="1.6">WACHTER INTELLIGENCE</text>
+    <text x="56" y="152" font-size="70" font-weight="800" letter-spacing="-3">APPLIED AI</text>
+    <text x="56" y="221" font-size="70" font-weight="800" letter-spacing="-3">SYSTEMS BUILDER</text>
+    <text x="60" y="267" font-size="24" fill="#b7c6c2">Guarded agents · model workflows · operational software</text>
+    <line x1="56" y1="307" x2="610" y2="307" stroke="#ffe17c" stroke-width="3"/>
+    <text x="56" y="349" font-size="24" font-weight="700">MARCEL WACHTER</text>
+    <text x="310" y="349" font-size="18" fill="#b7c6c2">Founder · Wachter Intelligence</text>
+  </g>
+
+  <g transform="translate(690 56)" font-family="Arial, Helvetica, sans-serif" filter="url(#shadow)">
+    <rect x="0" y="0" width="520" height="308" rx="2" fill="#eef6ed" stroke="#000" stroke-width="3"/>
+    <text x="30" y="38" font-size="17" font-weight="700" letter-spacing="1.4" fill="#171e19">OPERATING PRINCIPLE</text>
+
+    <g font-size="31" font-weight="800" fill="#171e19">
+      <rect x="28" y="62" width="464" height="60" fill="#fff" stroke="#000" stroke-width="3"/>
+      <text x="52" y="102">BOUND TOOLS</text>
+
+      <rect x="28" y="138" width="464" height="60" fill="#ffe17c" stroke="#000" stroke-width="3"/>
+      <text x="52" y="178">VERIFIED STATE</text>
+
+      <rect x="28" y="214" width="464" height="60" fill="#171e19" stroke="#000" stroke-width="3"/>
+      <text x="52" y="254" fill="#fff">HUMAN CONTROL</text>
+    </g>
+
+    <g fill="#171e19">
+      <path d="M466 128l-8-12h16z"/>
+      <path d="M466 204l-8-12h16z"/>
+    </g>
+    <text x="30" y="299" font-size="16" font-weight="700" letter-spacing="1" fill="#7d7765">MAKE CONSEQUENTIAL ACTIONS INSPECTABLE</text>
+  </g>
+</svg>
